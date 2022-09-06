@@ -1,5 +1,8 @@
 ## SCP - Sistema de Cadastro de Pacientes (Backend)
-Sistema Backend desenvolvido em Node.js + MongoDB para realizar a manipulação de dados de Pacientes em uma Clínica Médica. Nela foram utilizados os serviços de Cloud da AWS - São Paulo, que o MongoDB Atlas utiliza por padrão para a criação de clusters para a hospedagem de dados em nuvem de forma gratuita.
+Sistema Back-end desenvolvido em Node.js + MongoDB com fins didáticos, para realizar a manipulação de dados de Pacientes em uma Clínica Médica. Nela foram utilizados os serviços de Cloud da AWS - São Paulo, que o MongoDB Atlas utiliza por padrão para a criação de clusters para hospedagem de dados em nuvem de forma gratuita 👨🏻‍💻⚕️
+
+
+Neste projeto pude aplicar a arquitetura do Padrão de Projetos MVC (Model, View, Controller) que estou estudando bastante no momento 📚
 
 A aplicação está dividida em 6 rotas HTTP:
 - Home Page (Página Principal do Sistema) => <strong>"/"</strong>
