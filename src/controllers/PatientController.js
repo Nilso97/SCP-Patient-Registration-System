@@ -90,7 +90,7 @@ module.exports = {
       const data = await Patient.findByIdAndDelete(id);
 
       return res.status(200).json({
-        message: `Registro do paciente: ${data.patient_name} foi deletado com sucesso!`,
+        message: `Registro do paciente: ${data.patient_data.patient_name} foi deletado com sucesso!`,
       });
     } catch {
       res.status(400).json({
