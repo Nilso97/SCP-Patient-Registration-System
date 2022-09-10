@@ -1,0 +1,18 @@
+{
+    "patient_data": {
+        "patient_name": "",
+        "birth_date": "",
+        "sex": "",
+        "email": "",
+        "address": ""
+    },
+    "information": {
+        "symptons": "",
+        "health_insurance": "",
+        "more_information": ""
+    },
+    "schedule_appointment": {
+        "consultation_date": "",
+        "appointment_time": ""
+    }
+}
