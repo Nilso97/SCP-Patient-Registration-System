@@ -1,16 +1,16 @@
 const express = require("express");
-const PatientControllers = require("../controllers/PatientControllers");
+const PatientController = require("../controllers/PatientController");
 
 const router = express.Router();
 
 /*
 Routes of my application
 */
-router.get("/", PatientControllers.homePage);
-router.get("/list", PatientControllers.index);
-router.post("/create", PatientControllers.create);
-router.get("/list/:id", PatientControllers.findById);
-router.patch("/update/:id", PatientControllers.updateById);
-router.delete("/delete/:id", PatientControllers.deleteById);
+router.get("/", PatientController.homePage);
+router.get("/list", PatientController.index);
+router.post("/create", PatientController.create);
+router.get("/list/:id", PatientController.findById);
+router.patch("/update/:id", PatientController.updateById);
+router.delete("/delete/:id", PatientController.deleteById);
 
 module.exports = router;
