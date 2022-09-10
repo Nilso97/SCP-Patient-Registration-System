@@ -12,11 +12,11 @@ A aplicação está dividida em 6 rotas HTTP:
 - Atualizar um Paciente através da ID => <strong>"/update/:id"</strong>
 - Deletar um Paciente através da ID => <strong>"/delete/:id"</strong>
 
-Todos os dados são armazenados em um Cluster criado no MongoDB para hospedagem dos mesmos, para cada um dos Pacientes será gerada automáticamente uma ID única e que através dela poderam ser realizadas as operções CRUD
+- Todos os dados são armazenados em um Cluster criado no MongoDB para hospedagem dos mesmos, para cada um dos Pacientes será gerada automáticamente uma ID única e que através dela poderam ser realizadas as operções CRUD
 ![1](https://user-images.githubusercontent.com/96146165/189501724-1862fce5-1597-415d-8951-61baacfc8da8.png)
 
 ![3](https://user-images.githubusercontent.com/96146165/189501737-bc99915d-831a-4f92-81d3-a31ac79a75d1.png)
 
-Diagrama de exemplo dos dados de um Paciente em Json
+- Diagrama de exemplo dos dados de um Paciente em Json
 ![json schema](https://user-images.githubusercontent.com/96146165/189502057-6b65b39e-bec8-4295-a664-6ea16d8d77c6.png)
 
