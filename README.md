@@ -13,8 +13,9 @@ A aplicação está dividida em 6 rotas HTTP:
 - Deletar um Paciente através da ID => <strong>"/delete/:id"</strong>
 
 Todos os dados são armazenados em um Cluster criado no MongoDB para hospedagem dos mesmos, para cada um dos Pacientes será gerada automáticamente uma ID única e que através dela poderam ser realizadas as operções CRUD
-![1](https://user-images.githubusercontent.com/96146165/187085250-b002a93e-f13a-4f04-bb4c-acbd8370dc79.png)
+![1](https://user-images.githubusercontent.com/96146165/189501724-1862fce5-1597-415d-8951-61baacfc8da8.png)
 
-Testando as rotas utilizando o Insomnia:
-![3](https://user-images.githubusercontent.com/96146165/187085259-b4fe6d1a-5857-4ecc-ac04-dccf8493c246.png)
+![3](https://user-images.githubusercontent.com/96146165/189501737-bc99915d-831a-4f92-81d3-a31ac79a75d1.png)
+
+
 
