@@ -22,3 +22,5 @@ Diagrama de exemplo dos dados de um Paciente em Json
 
 ![json schema](https://user-images.githubusercontent.com/96146165/189502057-6b65b39e-bec8-4295-a664-6ea16d8d77c6.png)
 
+![json](https://user-images.githubusercontent.com/96146165/189692332-eb0fabb8-e9db-4401-918f-8ddebead9dc2.png)
+
