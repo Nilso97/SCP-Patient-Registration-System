@@ -24,5 +24,6 @@ Diagrama de exemplo dos dados de um Paciente em Json
 
 <!--![json](https://user-images.githubusercontent.com/96146165/189692332-eb0fabb8-e9db-4401-918f-8ddebead9dc2.png)-->
 
-![json_](https://user-images.githubusercontent.com/96146165/189693235-f364b465-cd96-4d04-ae20-b5c911db6e30.png)
+![json](https://user-images.githubusercontent.com/96146165/189693978-61754d22-732e-471e-8e54-92d32e7ea835.png)
+
 
