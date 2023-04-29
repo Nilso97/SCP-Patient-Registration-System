@@ -1,12 +1,9 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const mongo_URL = process.env.DATABASE_URL;
+const url = process.env.DATABASE_URL;
 
-/*
-Connection with MongoDB
-*/
-mongoose.connect(mongo_URL);
+mongoose.connect(url);
 
 const db = mongoose.connection;
 
@@ -15,7 +12,7 @@ db.on("error", (err) => {
 });
 
 db.once("connected", () => {
-  console.log("Connected with MongoDB");
+  console.log(`Connected with MongoDB at ${url}`);
 });
 
 module.exports = db;
