@@ -3,14 +3,11 @@ const PatientController = require("../controllers/PatientController");
 
 const router = express.Router();
 
-/*
-Routes of my application
-*/
-router.get("/", PatientController.homePage);
-router.get("/list", PatientController.index);
-router.post("/create", PatientController.create);
-router.get("/list/:id", PatientController.findById);
-router.patch("/update/:id", PatientController.updateById);
-router.delete("/delete/:id", PatientController.deleteById);
+router.get("/scp/", PatientController.homePage);
+router.get("/scp/pacientes/", PatientController.index);
+router.post("/scp/pacientes/", PatientController.create);
+router.get("/scp/pacientes/:id", PatientController.findById);
+router.patch("/scp/pacientes/:id", PatientController.updateById);
+router.delete("/scp/pacientes/:id", PatientController.deleteById);
 
 module.exports = router;
