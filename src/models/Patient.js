@@ -1,8 +1,5 @@
 const mongoose = require("mongoose");
 
-/*
-MongoDB Schemas
-*/
 const dataSchema = new mongoose.Schema({
   patient_data: {
     patient_name: {
